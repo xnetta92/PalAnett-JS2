@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS2-feladat1</title>
+    <script>
+        function mouseIn() {
+            document.getElementById("myButton").innerHTML = "Sikerült";
+        }
+        function mouseOut() {
+            document.getElementById("myButton").innerHTML = "Húzd ide az egeret";
+        }
+    </script>
+</head>
+
+<body>
+    <button id="myButton" onmouseover="mouseIn()" onmouseout="mouseOut()">Húzd ide az egeret</button>    
+    <hr>
+</body>
+
+</html>
