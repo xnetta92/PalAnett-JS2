@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS2-feladat4</title>
+    <script>
+        function writeText() {
+            document.getElementById("myParagraph").innerHTML = myText.value;
+        }
+    </script>
+</head>
+
+<body>
+    <p id="myParagraph">
+        Írj ide valamit
+        </p>
+        <input id="myText" oninput="writeText()" type="text" value="irj ide valamit">
+</body>
+
+</html>

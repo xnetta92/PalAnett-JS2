@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS2-feladat3</title>
+    <script>
+        function imgClick() {
+            document.getElementById("myParagraph").innerHTML = "Rákattintott";
+        }
+        function imgLoad() {
+            document.getElementById("myParagraph").innerHTML = "Betöltött";
+        }
+    </script>
+</head>
+
+<body>
+
+    <p id="myParagraph">Betöltés</p>
+    <img onclick="imgClick()" onload="imgLoad()" src="./635655082846943146-CDZbuEiUUAAtGQb.webp" width="600">
+
+
+</body>
+
+</html>
